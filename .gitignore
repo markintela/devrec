@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+build/
+
+# chaves do Supabase (o exemplo fica no repositório)
+.env*.local
+.env
+!.env.local.example
+
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
